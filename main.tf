@@ -1,5 +1,5 @@
 resource "aws_ssm_parameter" "param" {
-  name  = "db-password"
+  name  = "db-password2"
   type  = "SecureString"
   value = random_password.password.result
 }
